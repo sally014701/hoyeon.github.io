@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 class="hidden" id="hello"></h1>
+  
+    <form id="myid" class="hidden">    
+        <input 
+        required 
+        maxlength="15"
+        type="text" 
+        placeholder="What's your name?"
+        /> 
+        <button>Login</button>
+    </form>
+
+    <h2 id="clock">00:00</h2>
+    <!-- 00:00으로 js이벤트 시작 전의 default값을 설정해줌.  -->
+
+   <form id="todo">
+    <input
+    type="text"
+    placeholder="Write a to do list and press enter" required
+    />
+   </form>
+
+   <ul id="list"></ul>
+
+
+    <div id="quote">
+        <span ></span> 
+        <span></span>
+    </div>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <script src="./js/greeting.js"></script>
+    <script src="./js/quote.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+ 
+    
+</body>
+</html>
